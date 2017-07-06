@@ -1,0 +1,2 @@
+#!/bin/bash
+curl 'https://stickntrack.sensolus.com/rest/api/v1/devices/K4R9M7/gpslocations?from=all&apiKey=c353d78709624bfe8a70bd4b96d5bdc9' | jq -c '.[] | {"index": {"_index": "stickntrack-test", "_type": "K4R9M7", "_id": .id}}, {location: {lat: .lat, lon: .lng}, address: .address, timestamp: .timestamp, locationUpdateState: .locationUpdateState}' | curl -XPOST localhost:9200/_bulk --user elastic:changeme --data-binary @-

@@ -1,0 +1,15 @@
+elastic:
+  image: elasticsearch
+  ports:
+    -  "9200:9200"
+services:
+  kibana:
+   ports:
+     - "5601:5601"
+   environment:
+      ELASTICSEARCH_URL: http://localhost:9200
+      ELASTICSEARCH_PASSWORD: changeme
+log:
+   image: logstash
+   ports: 
+     - "5044:5044"

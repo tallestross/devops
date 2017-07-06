@@ -1,0 +1,202 @@
+2017-05-30T14:43:36+01:00 INFO Home path: [/Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64] Config path: [/Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64] Data path: [/Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64/data] Logs path: [/Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64/logs]
+2017-05-30T14:43:36+01:00 INFO Setup Beat: metricbeat; Version: 5.4.0
+2017-05-30T14:43:36+01:00 INFO Loading template enabled. Reading template file: /Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64/metricbeat.template.json
+2017-05-30T14:43:36+01:00 INFO Loading template enabled for Elasticsearch 2.x. Reading template file: /Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64/metricbeat.template-es2x.json
+2017-05-30T14:43:36+01:00 INFO Loading template enabled for Elasticsearch 6.x. Reading template file: /Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64/metricbeat.template-es6x.json
+2017-05-30T14:43:36+01:00 INFO Elasticsearch url: https://localhost:9200
+2017-05-30T14:43:36+01:00 INFO Activated elasticsearch as output plugin.
+2017-05-30T14:43:36+01:00 INFO Publisher name: daedalus.local
+2017-05-30T14:43:36+01:00 INFO Flush Interval set to: 1s
+2017-05-30T14:43:36+01:00 INFO Max Bulk Size set to: 50
+2017-05-30T14:43:36+01:00 INFO Register [ModuleFactory:[docker, mongodb, mysql, postgresql, system], MetricSetFactory:[apache/status, ceph/cluster_disk, ceph/cluster_health, ceph/monitor_health, ceph/pool_disk, couchbase/bucket, couchbase/cluster, couchbase/node, docker/container, docker/cpu, docker/diskio, docker/healthcheck, docker/image, docker/info, docker/memory, docker/network, haproxy/info, haproxy/stat, jolokia/jmx, kafka/consumergroup, kafka/partition, mongodb/dbstats, mongodb/status, mysql/status, nginx/stubstatus, php_fpm/pool, postgresql/activity, postgresql/bgwriter, postgresql/database, prometheus/collector, prometheus/stats, redis/info, redis/keyspace, system/core, system/cpu, system/filesystem, system/fsstat, system/load, system/memory, system/network, system/process, zookeeper/mntr]]
+2017-05-30T14:43:36+01:00 INFO metricbeat start running.
+2017-05-30T14:43:37+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:43:38+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:43:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:43:44+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:43:52+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:44:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=3 fetches.system-cpu.success=3 fetches.system-filesystem.events=18 fetches.system-filesystem.success=3 fetches.system-fsstat.events=3 fetches.system-fsstat.success=3 fetches.system-load.events=3 fetches.system-load.success=3 fetches.system-memory.events=3 fetches.system-memory.success=3 fetches.system-network.events=36 fetches.system-network.success=3 fetches.system-process.events=804 fetches.system-process.success=3 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=870 libbeat.publisher.published_events=870
+2017-05-30T14:44:08+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:44:36+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=2 fetches.system-cpu.success=2 fetches.system-filesystem.events=7 fetches.system-filesystem.success=2 fetches.system-fsstat.events=2 fetches.system-fsstat.success=2 fetches.system-load.events=2 fetches.system-load.success=2 fetches.system-memory.events=2 fetches.system-memory.success=2 fetches.system-network.events=13 fetches.system-network.success=2 fetches.system-process.events=261 fetches.system-process.success=1 libbeat.publisher.messages_in_worker_queues=280 libbeat.publisher.published_events=281
+2017-05-30T14:44:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:45:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:45:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:45:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:46:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:46:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:46:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:47:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=2 fetches.system-cpu.success=2 fetches.system-filesystem.events=12 fetches.system-filesystem.success=2 fetches.system-fsstat.events=2 fetches.system-fsstat.success=2 fetches.system-load.events=2 fetches.system-load.success=2 fetches.system-memory.events=2 fetches.system-memory.success=2 fetches.system-network.events=22 fetches.system-network.success=1 fetches.system-process.events=8 fetches.system-process.success=1 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=50 libbeat.publisher.published_events=50
+2017-05-30T14:47:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:47:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:48:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:48:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:48:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:49:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:49:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:49:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:50:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:50:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:50:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:51:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=1 fetches.system-cpu.success=1 fetches.system-network.events=1 fetches.system-process.events=1 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=3 libbeat.publisher.published_events=3
+2017-05-30T14:51:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:51:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:52:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:52:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:52:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:53:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:53:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:53:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:54:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:54:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:54:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:55:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-filesystem.events=1 fetches.system-load.events=1 fetches.system-load.success=1 fetches.system-memory.events=1 fetches.system-memory.success=1 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=3 libbeat.publisher.published_events=3
+2017-05-30T14:55:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:55:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:56:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:56:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:56:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:57:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:57:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:57:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:58:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:58:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:58:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T14:59:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-fsstat.events=1 fetches.system-fsstat.success=1 fetches.system-network.events=1 fetches.system-network.success=1 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=2 libbeat.publisher.published_events=2
+2017-05-30T14:59:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T14:59:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:00:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:00:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:00:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:01:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:01:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:01:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:02:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:02:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:02:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:03:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=2 fetches.system-cpu.success=2 fetches.system-filesystem.events=11 fetches.system-filesystem.success=2 fetches.system-fsstat.events=1 fetches.system-fsstat.success=1 fetches.system-load.events=2 fetches.system-load.success=2 fetches.system-memory.events=2 fetches.system-memory.success=2 fetches.system-network.events=12 fetches.system-network.success=1 fetches.system-process.events=20 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=50 libbeat.publisher.published_events=50
+2017-05-30T15:03:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:03:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:04:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:04:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:04:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:05:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:05:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:05:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:06:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:06:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:06:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:07:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=2 fetches.system-cpu.success=2 fetches.system-filesystem.events=12 fetches.system-filesystem.success=2 fetches.system-fsstat.events=1 fetches.system-fsstat.success=1 fetches.system-load.events=2 fetches.system-load.success=2 fetches.system-memory.events=2 fetches.system-memory.success=2 fetches.system-network.events=10 fetches.system-process.events=21 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=50 libbeat.publisher.published_events=50
+2017-05-30T15:07:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:07:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:08:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:08:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:08:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:09:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:09:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:09:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:10:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:10:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:10:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:11:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=2 fetches.system-cpu.success=2 fetches.system-filesystem.events=12 fetches.system-filesystem.success=2 fetches.system-fsstat.events=2 fetches.system-fsstat.success=2 fetches.system-load.events=2 fetches.system-load.success=2 fetches.system-memory.events=2 fetches.system-memory.success=2 fetches.system-network.events=2 fetches.system-network.success=1 fetches.system-process.events=28 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=50 libbeat.publisher.published_events=50
+2017-05-30T15:11:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:11:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:12:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:12:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:12:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:13:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:13:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:13:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:14:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:14:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:14:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:15:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=2 fetches.system-cpu.success=2 fetches.system-filesystem.events=12 fetches.system-filesystem.success=2 fetches.system-fsstat.events=1 fetches.system-fsstat.success=1 fetches.system-load.events=2 fetches.system-load.success=2 fetches.system-memory.events=2 fetches.system-memory.success=2 fetches.system-network.events=12 fetches.system-network.success=1 fetches.system-process.events=19 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=50 libbeat.publisher.published_events=50
+2017-05-30T15:15:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:15:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:16:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:16:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:16:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:17:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:17:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:17:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:18:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:18:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:18:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:19:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-fsstat.events=1 fetches.system-fsstat.success=1 fetches.system-network.events=1 fetches.system-process.events=1 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=3 libbeat.publisher.published_events=3
+2017-05-30T15:19:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:19:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:20:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:20:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:20:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:21:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:21:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:21:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:22:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:22:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:22:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:23:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-memory.events=1 fetches.system-memory.success=1 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=1 libbeat.publisher.published_events=1
+2017-05-30T15:23:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:23:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:24:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:24:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:24:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:25:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:25:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:25:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:26:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:26:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:26:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:27:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=2 fetches.system-cpu.success=2 fetches.system-filesystem.events=12 fetches.system-filesystem.success=2 fetches.system-fsstat.events=2 fetches.system-fsstat.success=2 fetches.system-load.events=2 fetches.system-load.success=2 fetches.system-memory.events=2 fetches.system-memory.success=2 fetches.system-network.events=11 fetches.system-network.success=1 fetches.system-process.events=19 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=50 libbeat.publisher.published_events=50
+2017-05-30T15:27:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:27:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:28:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:28:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:28:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:29:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:29:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:29:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:30:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:30:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:30:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:31:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-network.events=1 fetches.system-process.events=1 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=2 libbeat.publisher.published_events=2
+2017-05-30T15:31:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:31:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:32:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:32:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:32:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:33:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:33:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:33:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:34:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:34:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:34:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:35:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=2 fetches.system-cpu.success=2 fetches.system-filesystem.events=10 fetches.system-filesystem.success=1 fetches.system-fsstat.events=1 fetches.system-fsstat.success=1 fetches.system-load.events=2 fetches.system-load.success=2 fetches.system-memory.events=2 fetches.system-memory.success=2 fetches.system-network.events=11 fetches.system-network.success=1 fetches.system-process.events=22 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=50 libbeat.publisher.published_events=50
+2017-05-30T15:35:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:35:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:36:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:36:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:36:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:37:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:37:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:37:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:38:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:38:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:38:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:39:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-process.events=1 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=1 libbeat.publisher.published_events=1
+2017-05-30T15:39:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:39:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:40:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:40:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:40:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:41:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:41:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:41:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:42:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:42:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:42:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:43:06+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=2 fetches.system-cpu.success=2 fetches.system-filesystem.events=8 fetches.system-filesystem.success=2 fetches.system-fsstat.events=2 fetches.system-fsstat.success=2 fetches.system-load.events=2 fetches.system-load.success=2 fetches.system-memory.events=2 fetches.system-memory.success=2 fetches.system-network.events=12 fetches.system-network.success=1 fetches.system-process.events=22 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=50 libbeat.publisher.published_events=50
+2017-05-30T15:43:36+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:43:40+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-05-30T15:44:06+01:00 INFO No non-zero metrics in the last 30s
+2017-05-30T15:44:30+01:00 INFO Total non-zero values:  fetches.system-cpu.events=22 fetches.system-cpu.success=22 fetches.system-filesystem.events=116 fetches.system-filesystem.success=21 fetches.system-fsstat.events=19 fetches.system-fsstat.success=19 fetches.system-load.events=22 fetches.system-load.success=22 fetches.system-memory.events=23 fetches.system-memory.success=23 fetches.system-network.events=145 fetches.system-network.success=13 fetches.system-process.events=1229 fetches.system-process.success=6 libbeat.outputs.messages_dropped=16 libbeat.publisher.messages_in_worker_queues=1565 libbeat.publisher.published_events=1568
+2017-05-30T15:44:30+01:00 INFO Uptime: 1h0m53.298443113s
+2017-05-30T15:44:30+01:00 INFO metricbeat stopped.

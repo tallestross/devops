@@ -1,0 +1,4 @@
+for volume in `docker volume ls`
+do
+ echo $volume | awk -F'\n' '{print $1}'
+done

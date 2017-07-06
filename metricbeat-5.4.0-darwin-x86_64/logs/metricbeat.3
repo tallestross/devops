@@ -1,0 +1,30 @@
+2017-06-06T11:52:16+01:00 INFO Setup Beat: metricbeat; Version: 5.4.0
+2017-06-06T11:52:16+01:00 INFO Loading template enabled. Reading template file: /Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64/metricbeat.template.json
+2017-06-06T11:52:16+01:00 INFO Loading template enabled for Elasticsearch 2.x. Reading template file: /Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64/metricbeat.template-es2x.json
+2017-06-06T11:52:16+01:00 INFO Loading template enabled for Elasticsearch 6.x. Reading template file: /Users/rossmaude/DevOps/metricbeat-5.4.0-darwin-x86_64/metricbeat.template-es6x.json
+2017-06-06T11:52:16+01:00 INFO Elasticsearch url: https://localhost:9200
+2017-06-06T11:52:16+01:00 INFO Activated elasticsearch as output plugin.
+2017-06-06T11:52:16+01:00 INFO Publisher name: daedalus.local
+2017-06-06T11:52:16+01:00 INFO Flush Interval set to: 1s
+2017-06-06T11:52:16+01:00 INFO Max Bulk Size set to: 50
+2017-06-06T11:52:16+01:00 INFO Register [ModuleFactory:[docker, mongodb, mysql, postgresql, system], MetricSetFactory:[apache/status, ceph/cluster_disk, ceph/cluster_health, ceph/monitor_health, ceph/pool_disk, couchbase/bucket, couchbase/cluster, couchbase/node, docker/container, docker/cpu, docker/diskio, docker/healthcheck, docker/image, docker/info, docker/memory, docker/network, haproxy/info, haproxy/stat, jolokia/jmx, kafka/consumergroup, kafka/partition, mongodb/dbstats, mongodb/status, mysql/status, nginx/stubstatus, php_fpm/pool, postgresql/activity, postgresql/bgwriter, postgresql/database, prometheus/collector, prometheus/stats, redis/info, redis/keyspace, system/core, system/cpu, system/filesystem, system/fsstat, system/load, system/memory, system/network, system/process, zookeeper/mntr]]
+2017-06-06T11:52:16+01:00 INFO metricbeat start running.
+2017-06-06T11:52:16+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-06-06T11:52:17+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-06-06T11:52:19+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-06-06T11:52:23+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-06-06T11:52:31+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-06-06T11:52:46+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=3 fetches.system-cpu.success=3 fetches.system-filesystem.events=15 fetches.system-filesystem.success=3 fetches.system-fsstat.events=3 fetches.system-fsstat.success=3 fetches.system-load.events=3 fetches.system-load.success=3 fetches.system-memory.events=3 fetches.system-memory.success=3 fetches.system-network.events=33 fetches.system-network.success=3 fetches.system-process.events=630 fetches.system-process.success=3 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=690 libbeat.publisher.published_events=690
+2017-06-06T11:52:47+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-06-06T11:53:16+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=3 fetches.system-cpu.success=3 fetches.system-filesystem.events=11 fetches.system-filesystem.success=3 fetches.system-fsstat.events=3 fetches.system-fsstat.success=3 fetches.system-load.events=3 fetches.system-load.success=3 fetches.system-memory.events=3 fetches.system-memory.success=3 fetches.system-network.events=23 fetches.system-network.success=3 fetches.system-process.events=422 fetches.system-process.success=3 libbeat.publisher.messages_in_worker_queues=460 libbeat.publisher.published_events=461
+2017-06-06T11:53:19+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-06-06T11:53:46+01:00 INFO Non-zero metrics in the last 30s: fetches.system-load.events=1 fetches.system-load.success=1
+2017-06-06T11:54:16+01:00 INFO No non-zero metrics in the last 30s
+2017-06-06T11:54:19+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: http: server gave HTTP response to HTTPS client
+2017-06-06T11:54:46+01:00 INFO No non-zero metrics in the last 30s
+2017-06-06T11:55:16+01:00 INFO No non-zero metrics in the last 30s
+2017-06-06T11:55:19+01:00 ERR Connecting error publishing events (retrying): Get https://localhost:9200: dial tcp [::1]:9200: getsockopt: connection refused
+2017-06-06T11:55:46+01:00 INFO Non-zero metrics in the last 30s: fetches.system-cpu.events=1 fetches.system-cpu.success=1 fetches.system-memory.events=1 fetches.system-memory.success=1 libbeat.outputs.messages_dropped=1 libbeat.publisher.messages_in_worker_queues=2 libbeat.publisher.published_events=2
+2017-06-06T11:56:03+01:00 INFO Total non-zero values:  fetches.system-cpu.events=7 fetches.system-cpu.success=7 fetches.system-filesystem.events=28 fetches.system-filesystem.success=7 fetches.system-fsstat.events=6 fetches.system-fsstat.success=6 fetches.system-load.events=7 fetches.system-load.success=7 fetches.system-memory.events=7 fetches.system-memory.success=7 fetches.system-network.events=59 fetches.system-network.success=7 fetches.system-process.events=1057 fetches.system-process.success=7 libbeat.outputs.messages_dropped=2 libbeat.publisher.messages_in_worker_queues=1152 libbeat.publisher.published_events=1163
+2017-06-06T11:56:03+01:00 INFO Uptime: 3m47.243408287s
+2017-06-06T11:56:03+01:00 INFO metricbeat stopped.
